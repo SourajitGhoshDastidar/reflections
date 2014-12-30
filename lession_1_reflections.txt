@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+ I can compare 2 versions using diff -u command in Git Bash and find out the difference between the older version working and the newer version and figure out the difference and thus the point where the bug was introduced into the system.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It can help me restore to a previous version at any point of time when I find that my current version is having some problems. I can also see how my current version evolved from the previous versions and how changes were made on them.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros of manually choosing is I can commit whenever a logical change in my code is made and the viewing of history is less cluttered and thus more understandable. If versions are automatically saved, there is a high chance that the version history would be cluttered and would make it hard to understand logical changes.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because one logical change in the whole application can involve changes in multiple files. Thus they are stored together and their changes are mapped together as one version.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    I can use git log to see different version of the repository and then compare 2 versions using git diff command and see the changes made
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    I can use version control to go back and test if a previous commit was working. When we have located the point of origin of the bug then we can compare that commit and a working commit and find difference between the two commit files using the diff command
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git to store versions of my repositores. 
+    
