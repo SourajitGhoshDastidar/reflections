@@ -5,3 +5,6 @@ Because a git repository needs to be created otherwise the file history is not c
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Staging area is a temporary space to add files which have been changed but haven't been commmitted yet to the repository from the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can keep the files which I have changed to make a logical change in the staging area which acts as a buffer space and then commit them together using one commit message all at once. Thus I am makng 1 commit per logical change
