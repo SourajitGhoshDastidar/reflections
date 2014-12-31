@@ -8,3 +8,16 @@ Staging area is a temporary space to add files which have been changed but haven
 
 How can you use the staging area to make sure you have one commit per logical change?
 I can keep the files which I have changed to make a logical change in the staging area which acts as a buffer space and then commit them together using one commit message all at once. Thus I am makng 1 commit per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Creating a new branch is helpful when I am designing a new experimental feature which I am not yet sure of. Creating a new branch for it would help design that new feature in a new branch in git while keeping the master branch intact.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help us viasualize the branch structure by mapping each commit to it's parent and also by branching for each new features added or bugs fixed
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result will contain a commit which has changes introduced in both the branches independently merged into one commit. We need to represent it using a diagram because it makes it easier to understand.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging helps us merge portions of the code which have remained same while creating a conflict if there are portions which 2 branches have developed independently.
